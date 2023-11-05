@@ -1,0 +1,22 @@
+{
+  "name": "18-forkify",
+  "version": "1.0.0",
+  "browserslist": "> 0.5%, last 2 versions, not dead, ie >= 11",
+  "description": "Recipe Application",
+  "scripts": {
+    "start": "parcel --target default index.html",
+    "build": "parcel build index.html --no-optimize --no-scope-hoist --dist-dir ./dist"
+  },
+  "keywords": [],
+  "author": "Bayu Ajiwicaksana",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.1",
+    "parcel": "^2.10.1"
+  },
+  "dependencies": {
+    "core-js": "^3.33.1",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.14.0"
+  }
+}
